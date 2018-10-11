@@ -6,10 +6,9 @@ ThinkPHP 5.0
 [![License](https://poser.pugx.org/topthink/think/license)](https://packagist.org/packages/topthink/think)
 
 ThinkPHP5在保持快速开发和大道至简的核心理念不变的同时，PHP版本要求提升到5.4，对已有的CBD模式做了更深的强化，优化核心，减少依赖，基于全新的架构思想和命名空间实现，是ThinkPHP突破原有框架思路的颠覆之作，其主要特性包括：
-这时我新增加的。222222
-我想知道这时master的
  + 基于命名空间和众多PHP新特性
  + 核心功能组件化
+ 我是dev分支的
  + 强化路由功能
  + 更灵活的控制器
  + 重构的模型和数据库类
