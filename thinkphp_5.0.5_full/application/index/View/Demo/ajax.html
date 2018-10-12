@@ -1,0 +1,16 @@
+<?php foreach($data as $k=>$v){ ?>
+		<tr>
+			<td>{$v['id']}</td>
+			<td>{$v['names']}</td>
+			<td>{$v['prices']}</td>
+			<td>{$v['descc']}</td>
+			<!-- <td>{$v['img']}</td> -->
+			<td><img src="__STATIC__/uploads/{$v.img}" alt="" width="50"></td>
+			<td><a href="{:url('demo/dele',['id'=>$v['id']])}">删除</a>
+				<a href="{:url('demo/upda',['id'=>$v['id']])}">更新</a>
+		    </td> 
+		</tr>
+<?php } ?>
+		<tr>
+			<td>{$page}</td>
+		</tr>

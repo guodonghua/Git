@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form action="{:url('demo/update')}" method="post">
+		<table>
+			<tr>
+				<td>名称</td>
+				<input type="hidden" value="<?php echo $data[0]['id'] ?>" name='id'>
+				<td><input type="text" value="<?php echo $data[0]['names'] ?>" name="names"></td>
+			</tr>
+			<tr>
+				<td>价格</td>
+				<td><input type="text" name="prices" value="<?php echo $data[0]['prices'] ?>"></td>
+			</tr>
+			<tr>
+				<td>描述</td>
+				<td> <input type="text" name="descc" value="<?php echo $data[0]['descc'] ?>"> </td>
+			</tr>
+			<tr>
+				<td>图片</td>
+				<td><input type="file" name="file"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="submit"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

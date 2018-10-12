@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form action="{:url('city/adds')}" method="post">
+		<table>
+			<tr>
+				<td>名称</td>
+				<td><input type="text" value="" name="names"></td>
+			</tr>
+			<tr>
+				<td>班级号</td>
+				<td><input type="text" value="" name="c_id"></td>
+			</tr>
+			<tr>
+				<td>学号</td>
+				<td><input type="text" value="" name="class"></td>
+			</tr>
+			<tr>
+				<td>性别</td>
+				<td>男<input type="radio" value="1" name="sex">
+					女<input type="radio" value="2" name="sex">
+				</td>
+			</tr>
+			<tr>
+				<td>年龄</td>
+				<td><input type="text" value="" name="age"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="submit"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
